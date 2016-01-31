@@ -1,0 +1,37 @@
+{
+  "name": "animations",
+  "version": "0.0.0",
+  "description": "A library for trigger CSS3 animations from JavaScript",
+  "homepage": "https://github.com/ryanbahniuk/animations",
+  "keywords": [
+    "animations",
+    "css",
+    "transitions"
+  ],
+  "author": {
+    "name": "Ryan Bahniuk",
+    "email": "ryan.bahniuk@gmail.com",
+    "url": "http://bahni.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryanbahniuk/animations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanbahniuk/animations/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ryanbahniuk/animations/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "main.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "pretest": "eslint ."
+  }
+}
