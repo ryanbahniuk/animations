@@ -28,6 +28,7 @@ Animation.prototype = {
     if (!this._currentlyTransitioning() && !this._transitionComplete()) {
       this.element.classList.add(this.transitionClass);
       this.element.addEventListener('transitionend', this._endTransition.bind(this));
+      this.element.addEventListener('animationend', this._endTransition.bind(this));
     }
   },
 

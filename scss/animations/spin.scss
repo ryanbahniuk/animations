@@ -1,0 +1,21 @@
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@each $duration in 100, 200, 400, 800, 1600 {
+  $decimal: #{$duration / 1600}s;
+
+  .transition-spin-#{$duration} {
+    animation-name: spin;
+    animation-duration: #{$decimal};
+    animation-timing-function: linear;
+  }
+}
+
+.transition-spin-complete {
+}
