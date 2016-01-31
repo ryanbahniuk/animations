@@ -1,0 +1,12 @@
+@each $duration in 100, 200, 400, 800, 1600 {
+  $decimal: #{$duration / 1600}s;
+
+  .transition-fade-in-#{$duration} {
+    transition: opacity $decimal linear;
+    opacity: 1;
+  }
+}
+
+.transition-fade-in-complete {
+  opacity: 1;
+}
