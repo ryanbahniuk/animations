@@ -1,7 +1,7 @@
 {
   "name": "animations",
-  "version": "0.0.0",
-  "description": "A library for trigger CSS3 animations from JavaScript",
+  "version": "0.0.1",
+  "description": "A library for triggering CSS3 animations from JavaScript",
   "homepage": "https://github.com/ryanbahniuk/animations",
   "keywords": [
     "animations",
